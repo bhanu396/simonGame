@@ -15,6 +15,17 @@ nextSequence();
 
 });
 
+$(".start-button").click(function(){
+  if(started==false)
+  {nextSequence();
+  $("#level-title").text("Level "+level)
+}
+else
+nextSequence();
+  started=true;
+
+});
+
 $(".btn").click(function() {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
