@@ -17,6 +17,13 @@ body {
 
 }
 
+.start-button{
+  height: 50px;
+  width:150px;
+  text-align: center;
+  color: red;
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
